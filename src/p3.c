@@ -11,4 +11,5 @@ int main() {
 	b = b << 3; //56
 	printf("%d, %d, %d\n", a, b, c);
 	printf("%d, %d, %d\n", d, e, f);
+	return 0;
 }
