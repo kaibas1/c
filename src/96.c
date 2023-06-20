@@ -6,7 +6,7 @@ int main() {
 	printf("당신의 사주를 봐드립니다.\n연도, 월, 일을 차례대로 입력하세요 : ");
 	scanf("%d %d %d", &year, &month, &day);
 	
-	res = year - (month + day);
+	res = year - month + day;
 	
 	if (res % 10 == 0) {
 		printf("당신의 사주는 대박입니다.\n");
